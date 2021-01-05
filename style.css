@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-family: inherit;
+}
+#name{
+    font-family: cursive;
+}
+h2{
+    font-family: monospace;
+}
+#bio{
+    padding: 50px;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #000;
+}
+p{
+    font-size: 17px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+.schedule{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background: white;
+}
+.listitem{
+    float:left;
+    color: black;
+    padding: 5px;
+    font-family: 'Langar', cursive;
+    font-size: 20px;
+    display: inline;
+}
+.listitem:hover{
+    background-color: chocolate;
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: blueviolet;
+}
+html{
+    scroll-behavior: smooth;
+}
